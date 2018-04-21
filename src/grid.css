@@ -1,0 +1,13 @@
+.row .duble-thirt,
+.row .thirt {
+  float: left;
+  width: calc((100% - (20px * 2)) / 3);
+  margin-right: 20px;
+}
+.row .duble-thirt:last-child,
+.row .thirt:last-child {
+  margin-right: 0;
+}
+.row .duble-thirt {
+  width: calc(((100% - 20px) / 3) * 2);
+}
